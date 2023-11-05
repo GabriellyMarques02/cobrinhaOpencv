@@ -1,7 +1,7 @@
 # Welcome to CobrinhaOpencv!
 
-Esse projeto foi desenvolvido para a disciplina de Linguagem de Programação I - 2023.1 - do professor Derzu Omaia, o objetivo era implementar um dos temas sugeridos em aula utilizando a Opencv em C++. 
-Optei por escolher o jogo retrô da Serpente, comum em aparelhos dos anos 2000. 
+Esse projeto foi desenvolvido para a disciplina de Linguagem de Programação I - 2023.1 - do professor Derzu Omaia. O objetivo era implementar um dos temas sugeridos em aula utilizando a OpenCv em C++. 
+>Optei por escolher o jogo retrô da Serpente, comum em aparelhos dos anos 2000, adaptando para a cobrinha ser a face detectada pela webcam e a comida ser um pequeno quadrado vermelho, assim que colide com a face, ele muda de posição "aleatoriamente" e acrescenta +1 ao placar, lembrando que cada partida dura 60 segundos. 
 
 Obs.: Importante salientar que esse código foi feito em ambiente Linux-Ubuntu.
 
@@ -27,7 +27,7 @@ Obs.: Importante salientar que esse código foi feito em ambiente Linux-Ubuntu.
  7. Verificar se a face do jogador está sobre a comida. Se tiver uma
     nova    comida deve ser gerada em outra posição e a pontuação
     incrementada.
- 8. Exibir na tela se a pontuação atual do jogador. O jogador terá 1   
+ 8. Exibir na tela se a pontuação atual do jogador. O jogador terá 1 
     minuto para comer o máximo de comidas possíveis.
 
  9. ~~Toque um som toda vez que o usuário comer uma comida.~~ (Não implementado nessa versão)
@@ -35,7 +35,8 @@ Obs.: Importante salientar que esse código foi feito em ambiente Linux-Ubuntu.
 
 # Diagrama UML
 
-![cobrinha](https://drive.google.com/file/d/1zdpqtahyw-unGYURFMuDkVP8NOHIkHTq/view?usp=sharing)
+![cobrinha](https://github.com/GabriellyMarques02/cobrinhaOpencv/blob/main/cobrinhas.drawio.png)
+
 ### Algumas informações necessárias: 
 
     Cobrinha: Representa a classe principal que controla o jogo.
@@ -68,14 +69,14 @@ Obs.: Importante salientar que esse código foi feito em ambiente Linux-Ubuntu.
 
 ### Tela de inicio: 
 Assim que executa o arquivo do cobrinha, você se deparara com essa tela: 
-![1](https://drive.google.com/file/d/146M6XgijQtPK9u9j1GVHeZu6_dUMdIE1/view?usp=sharing)
+![1](https://github.com/GabriellyMarques02/cobrinhaOpencv/blob/main/1.png)
 ### Tela de fim de jogo e menu de escolha
 Assim que os 60 segundos do tempo de partida acaba, então ira imprimir na tela sua pontuação e um menu de escolha(R para reiniciar o jogo ou ESC para sair).
-![2](https://drive.google.com/file/d/1vK7lNmvnOnXD4KvIQFaCCk4vhTw_ySme/view?usp=sharing)
+![2](https://github.com/GabriellyMarques02/cobrinhaOpencv/blob/main/2.png)
 ### O placar fica gravado em um txt
 O placar é gravado assim que você reinicia o jogo apertando em R ou quando sair do programa apertando ESC. 
 Detalhe o arquivo insere o placar utilizando o metodo de uma fila. 
-![3](https://drive.google.com/file/d/1H9l-J1bGf2vo3cm3fOD01Qut3ciuiF2t/view?usp=sharing)
+![3](https://github.com/GabriellyMarques02/cobrinhaOpencv/blob/main/3.png)
 
 # Como compilar? 
 
