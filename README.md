@@ -71,7 +71,7 @@ Obs.: Importante salientar que esse código foi feito em ambiente Linux-Ubuntu.
 Assim que executa o arquivo do cobrinha, você se deparara com essa tela: 
 ![1](https://github.com/GabriellyMarques02/cobrinhaOpencv/blob/main/1.png)
 ### Tela de fim de jogo e menu de escolha
-Assim que os 60 segundos do tempo de partida acaba, então ira imprimir na tela sua pontuação e um menu de escolha(R para reiniciar o jogo ou ESC para sair).
+Assim que os 60 segundos do tempo de partida acaba, então ira imprimir na tela sua pontuação e um menu de escolha(R para reiniciar o jogo ou ESC para sair).<br />
 ![2](https://github.com/GabriellyMarques02/cobrinhaOpencv/blob/main/2.png)
 ### O placar fica gravado em um txt
 O placar é gravado assim que você reinicia o jogo apertando em R ou quando sair do programa apertando ESC. 
